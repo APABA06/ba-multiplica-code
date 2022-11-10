@@ -1,24 +1,25 @@
-/*Tematica +15*/
-
-let edad = prompt("¿Cual es tu edad?")
-
-if (edad >= 15) {
-    alert("Puedes pasar.")
+/*14*/
+let number = prompt("Sorteo Doritos")
+if (number > 10) {
+    document.write("Ganador");
+} else if (number <= 10) {
+    document.write("Perdedor")
+}else {
+    document.write ("Intenta de nuevo")
 }
-else{
-    alert("No podes pasar.")
+
+/*15*/
+
+function esNumeroDeLaSuerte(num1){
+    if(num > 0 && (num % 3 == 0 || num % 2 == 0) && num != 15) {
+         alert("Es el numero de la suerte");}
+        else{
+         alert("No es el numero de la suerte");
+         }
+        }
+        
+        let num = parseInt(prompt("✨ingrese el número de la suerte!✨  "));
+        esNumeroDeLaSuerte(num);
+        
+
 }
-
-let array_vacio = [];
-let mascota = "perro";
-
-if (mascota === "perro")
-
-
-/*Crea un array de strings con 5 elementos que quieras.
-Luego, mostrá en consola:
-1. El array
-2. Cuántos elementos tiene el array
-3. El índice 0 del array
- */
-
